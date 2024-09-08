@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #333; 
+    color: white;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    #container-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 20%;
+            border-radius: 20%;
+
+        }
+        }
+    }
+}
+
+#form-group {
+    display: flex;
+    align-items: center;
+}
+
+#cPesquisa {
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+#cSub {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#cSub:hover {
+    background-color: #d35400;
+}
+
+#menu {
+    background-color: #444;
+    padding: 10px 0;
+}
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+    margin: 0 15px;
+}
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+article h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery-item {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery-item a {
+    text-decoration: none;
+}
+.gallery-item h3 {
+   text-align: center;
+   color: #d35400;
+}
+.gallery-item img {
+    width: 100%;
+    height: 80%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+
+aside {
+    flex: 1;
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+aside  h3{
+    font-size: 1.3em;
+    text-align: center;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+aside  p{
+    text-align: justify;
+   text-indent: 10pt;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer form {
+    max-width: 400px;
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 8px;
+    color: #fff;
+}
+footer fieldset {
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+footer legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #f4f4f4;
+}
+footer label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ddd;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer input[type="tel"],
+footer input[type="number"],
+footer input[type="date"],
+footer textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+}
+
+footer textarea {
+    resize: vertical;
+}
+footer button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+footer button:hover {
+    background-color: #e67e22;
+}
+.footer-address {
+    max-width: 300px;
+    text-align: left;
+    color: #ddd;
+}
+.footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+address {
+    font-style: normal;
+    line-height: 1.6;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 	
+}
+.item_logo{
+    display: flex;
+    gap: 10px;
+}
+.logo_rede{
+	width: 40px;
+	height: 40px;
+}
+
+/*Estilo das páginas tintas, ferramentas e pisos*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+.card p {
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #666;
+}
+.button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #ff7f00;
+}
+
+/*EStilo da página cadastro*/
+#form-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    width: 100%;
+    margin: 0 auto;
+}
+#form-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+#form-container p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    margin-bottom: 15px;
+}
+.form-group input, 
+#form-container textarea {
+    flex: 1; 
+    min-width: 220px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#form-container textarea {
+    resize: none;
+    height: 80px;
+}
+#form-container button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+}
+#form-container button:hover {
+    background-color: #d35400;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header><br>
+        <div id="container-header">
+            <div>
+                <img src="imagens/logo.jpg">
+                <h1>Construmax</h1>
+            </div>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Seja um associado</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav><br>
+    </header>
+    <br><br><br><br><br>
+    
+          <div class="contato">
+              <form method="POST" class="formLogin">
+                  <h1>Fale Conosco</h1>
+                  <p>Tem alguma dúvida ou precisa de mais informações? Entre em contato conosco através do formulário abaixo.</p>
+                  <label for="nome">Nome</label><input type="text" id="nome" name="nnome" placeholder="Digite seu nome">
+                  <label for="email">E-mail</label><input type="email" id="email" name="eemail" placeholder="Digite seu e-mail">
+                  <label for="mensagem">Mensagem</label>
+                  <textarea id="mensagem" name="mmensagem" rows="5"></textarea><br><br>
+                  <input type="submit" value="Enviar" class="btn">
+              </form>
+          </div>
+          <br><br><br><br>
+
+          <footer>
+            <hr><br>
+            <div class="footer-content">
+                <form id="form_orcamento" method="post">
+                    <fieldset>
+                        <legend>Solicitação de Orçamento</legend>
+                        <p>
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </p>
+                        <p>
+                            <label for="descricao">Descrição do Serviço/Produto:</label>
+                            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                        </p>
+                        <p>
+                            <label for="quantidade">Quantidade:</label>
+                            <input type="number" id="quantidade" name="quantidade" min="1" required>
+                        </p>
+                        <p>
+                            <button type="submit">Enviar Solicitação</button>
+                        </p>
+                    </fieldset>
+                </form>
+        
+          
+                <div class="footer-address">
+                    <img src="imagens/logo.jpg" alt="Logo da Loja" class="footer-logo">
+                    <address>
+                        <p>Construmax - Loja de Materiais de Construção</p>
+                        <p>AV Santa Fé, 123 - Centro</p>
+                        <p>Morrinhos, Goiás, CEP 7650-000</p>
+                        <p>Telefone: (64) 1234-5678</p>
+                        <p>Email: contato@lojaconstrucao.com</p>
+                    </address>
+                    <div class="logo">
+                        <p>Acompanhe as novidades da Construmax em todas as nossas redes sociais:</p>
+                        <div class="item_logo">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="imagens/logo_insta.jpg" class="logo_rede" alt="Instagram">
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="imagens/logo_face.jpg" class="logo_rede" alt="Facebook">
+                            </a>
+                            <a href="https://www.tiktok.com/" target="_blank">
+                                <img src="imagens/logo_ttk.jpg" class="logo_rede" alt="TikTok">
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <img src="imagens/logo_you.jpg" class="logo_rede" alt="YouTube">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copy">&copy; 2024 Loja de Materiais de Construção. Todos os direitos reservados. By Anna Clara</p>
+        </footer>
+</body>
+</html>

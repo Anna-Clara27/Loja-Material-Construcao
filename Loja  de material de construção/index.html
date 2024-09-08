@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Material de Construção - Construmax</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div id="container-header">
+            <div>
+                <img src="imagens/logo.jpg" alt="Logo da Construmax">
+                <h1>Construmax</h1>
+            </div>
+            <form id="form-group" method="post">
+                <input type="text" name="tPesquisa" id="cPesquisa" size="50" placeholder="Digite o que você está procurando...">
+                <input type="submit" name="bSub" id="cSub" value="Buscar">
+            </form>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Seja um associado</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav><br><br>
+    </header>
+
+    <div class="container-main">
+        <article>
+            <h2>Loja de Material de Construção</h2><br>
+            <p>Conheça a nossa loja e explore nossa vasta gama de materiais para construção.</p><br>
+            <p>Confira nossos produtos:</p><br>
+            <section>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <a href="tintas.html" target="_blank">
+                            <h3>Tintas</h3>
+                            <img src="imagens/tinta.jpg" alt="Tintas">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="ferramentas.html" target="_blank">
+                            <h3>Ferramentas</h3>
+                            <img src="imagens/ferramentas.jpg" alt="Ferramentas">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="pisos.html" target="_blank">
+                            <h3>Pisos</h3>
+                            <img src="imagens/pisos.jpg" alt="Pisos">
+                        </a>
+                    </div>
+                </div><br><br>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Sobre a Nossa Loja</h3>
+            <p>Bem-vindo à Construmax, sua parceira de confiança em materiais de construção! Fundada em 2019,
+             nossa missão é fornecer os melhores produtos e soluções para a realização de seus projetos, desde 
+             pequenas reformas até grandes construções.</p><br>
+            <p>Com mais de 5 anos de experiência no mercado, somos uma loja completa que oferece uma ampla 
+            variedade de materiais de construção, acabamento, ferramentas e acessórios. Estamos comprometidos 
+            com a qualidade dos produtos que oferecemos e com o excelente atendimento ao cliente, proporcionando
+           um ambiente acolhedor e seguro para suas compras.</p><br>
+
+           <p>&#128072;Click nas imagens para ver mais sobre os produtos.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <hr><br>
+        <div class="footer-content">
+            <form id="form_orcamento" method="post">
+                <fieldset>
+                    <legend>Solicitação de Orçamento</legend>
+                    <p>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </p>
+                    <p>
+                        <label for="descricao">Descrição do Serviço/Produto:</label>
+                        <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                    </p>
+                    <p>
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" id="quantidade" name="quantidade" min="1" required>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar Solicitação</button>
+                    </p>
+                </fieldset>
+            </form>
+
+            <div class="footer-address">
+                <img src="imagens/logo.jpg" alt="Logo da Loja" class="footer-logo">
+                <address>
+                    <p>Construmax - Loja de Materiais de Construção</p>
+                    <p>AV Santa Fé, 123 - Centro, Morrinhos, Goiás, CEP 7650-000</p>
+                    <p>Telefone: (64) 1234-5678</p>
+                    <p>Email: contato@lojaconstrucao.com</p>
+                </address>
+                <div class="logo">
+                    <p>Acompanhe as novidades da Construmax em todas as nossas redes sociais:</p>
+                    <div class="item_logo">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="imagens/logo_insta.jpg" class="logo_rede" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="imagens/logo_face.jpg" class="logo_rede" alt="Facebook">
+                        </a>
+                        <a href="https://www.tiktok.com/" target="_blank">
+                            <img src="imagens/logo_ttk.jpg" class="logo_rede" alt="TikTok">
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="imagens/logo_you.jpg" class="logo_rede" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+        <p class="copy">&copy; 2024 Loja de Materiais de Construção. Todos os direitos reservados. By Anna Clara</p>
+    </footer>
+</body>
+</html>
